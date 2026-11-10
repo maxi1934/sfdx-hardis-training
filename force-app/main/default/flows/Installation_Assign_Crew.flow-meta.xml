@@ -23,8 +23,8 @@
         <description>US-018: the crew never exceeds the cap the planner set on the installation.</description>
         <name>Bring_Crew_Back_To_Cap</name>
         <label>Bring Crew Back To Cap</label>
-        <locationX>50</locationX>
-        <locationY>539</locationY>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
         <assignmentItems>
             <assignToReference>$Record.Crew_Size__c</assignToReference>
             <operator>Assign</operator>
