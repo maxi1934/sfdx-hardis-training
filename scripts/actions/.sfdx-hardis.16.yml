@@ -1,0 +1,9 @@
+commandsPostDeploy:
+  - id: 80f9f207-5463-4bca-b8da-b7e118518962
+    label: Carga de datos
+    type: data
+    command: ""
+    parameters:
+      sfdmuProject: HeliosHandoverTemplates
+    runOnlyOnceByOrg: true
+    context: process-deployment-only
